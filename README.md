@@ -1,11 +1,4 @@
 # Machine-Learning
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Introduction to Regression</title>
-</head>
-
-<body>
 
 <h1>Machine Learning – Regression</h1>
 
