@@ -94,3 +94,69 @@ Y (Salary)     → [10k, 20k, 30k, 40k, 50k]
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>ML REGRESSION</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<main>
+
+<h1>Machine Learning – Regression</h1>
+
+<h2>Concept</h2>
+<p>
+Regression is a supervised learning technique used to predict continuous values.
+</p>
+
+<h2>Important Terms</h2>
+<ul>
+<li><b>y</b> – actual values (answers from textbook)</li>
+<li><b>ȳ</b> – predicted values from the model</li>
+</ul>
+
+<h2>Loss Function</h2>
+<p>
+Loss function measures the error between actual and predicted values.
+</p>
+
+<h2>Optimizer</h2>
+<p>
+Optimizers reduce loss and improve accuracy.
+</p>
+
+<h3>Gradient Descent</h3>
+<ul>
+<li>Cost function forms a U-shaped curve</li>
+<li>Minimum point gives minimum error</li>
+<li>Update coefficient and intercept iteratively</li>
+</ul>
+
+<h2>Steps in Gradient Descent</h2>
+<ol>
+<li>Initialize slope and intercept</li>
+<li>Calculate cost function</li>
+<li>Choose learning rate (step size)</li>
+<li>Update slope and intercept</li>
+<li>Repeat until minimum loss</li>
+</ol>
+
+<h2>Code Explanation</h2>
+<pre>
+# y = actual values (ans from text book)
+# y_bar = predicted values by Model
+
+# Optimizer: Gradient Descent
+# Curve looks like U shape
+# Minimum point = minimum error
+# Update coefficient and intercept
+# Cost function + step size
+</pre>
+
+</main>
+</body>
+</html>
